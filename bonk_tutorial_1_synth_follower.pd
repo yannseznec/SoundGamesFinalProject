@@ -8,15 +8,15 @@
 #X coords 0 100 16 32 200 140 1 0 0;
 #X restore 83 96 graph;
 #X obj 86 242 hsl 195 15 0 15 0 0 empty current_location_rcv empty
--2 -8 0 10 -262144 -1 -1 3880 1;
+-2 -8 0 10 -262144 -1 -1 0 1;
 #X obj 313 73 hsl 128 15 0 127 0 0 threshold empty threshold -2 -8
-0 10 -262144 -1 -1 2000 1;
+0 10 -262144 -1 -1 0 1;
 #X obj 190 29 tgl 30 0 bonk_on_off empty bonk_on/off 0 35 0 10 -262144
 -1 -1 0 1;
 #X obj 316 120 vsl 15 128 0 100 0 0 attack_rcv empty attack 0 -9 0
-10 -262144 -1 -1 7900 1;
+10 -262144 -1 -1 0 1;
 #X obj 370 117 vsl 15 128 0 1000 0 0 release_rcv empty release 0 -9
-0 10 -262144 -1 -1 8000 1;
+0 10 -262144 -1 -1 0 1;
 #N canvas 170 49 1042 720 guts 0;
 #X obj 89 542 osc~ 400;
 #X obj 151 706 dac~;
@@ -92,3 +92,5 @@
 #X connect 32 0 25 0;
 #X connect 36 0 35 0;
 #X restore 142 411 pd guts;
+#X text 472 140 watch the video: https://youtu.be/mUtjRRoQ1ek;
+#X text 131 705 yann seznec // MICA game lab // @yannseznec;

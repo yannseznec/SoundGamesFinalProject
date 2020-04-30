@@ -1,27 +1,27 @@
-#N canvas 25 245 1245 855 24;
+#N canvas 25 23 1347 853 24;
 #X obj 281 303 bonk~;
-#X obj 136 219 adc~;
+#X obj 52 208 adc~;
 #X msg 618 238 minvel \$1;
 #X obj 642 159 hsl 200 50 0 127 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 19900 1;
-#X obj 247 355 bng 50 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1 10969 1;
+#X obj 280 343 bng 50 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X msg 364 185 learn 10;
 #X msg 502 183 learn 0;
-#X msg 175 145 debounce 0;
-#X obj 171 103 loadbang;
+#X msg 154 225 debounce 0;
+#X obj 150 183 loadbang;
 #X obj 395 47 tgl 40 0 empty empty learn 17 7 0 14 -262144 -1 -1 0
 1;
 #X obj 392 121 sel 1 0;
 #X obj 350 370 unpack f f;
-#X floatatom 349 419 5 0 0 0 - - -;
-#X floatatom 487 422 5 0 0 0 - - -;
-#X obj 306 475 sel 0 1 2;
+#X floatatom 247 446 5 0 0 0 - - -;
+#X floatatom 488 411 5 0 0 0 - - -;
+#X obj 247 482 sel 0 1 2;
 #X obj 247 528 bng 50 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 348 524 bng 50 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 304 527 bng 50 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
-#X obj 444 526 bng 50 250 50 0 empty empty empty 17 7 0 10 -262144
+#X obj 365 528 bng 50 250 50 0 empty empty empty 17 7 0 10 -262144
 -1 -1;
 #X obj 105 603 t b b;
 #X msg 170 654 open sounds/gun.wav;
@@ -43,6 +43,8 @@
 #X obj 947 254 loadbang;
 #X obj 641 75 loadbang;
 #X msg 639 112 70;
+#X text 905 62 watch the video: https://youtu.be/QTzpuyWDCoM;
+#X text 80 822 yann seznec // MICA game lab // @yannseznec;
 #X connect 0 0 4 0;
 #X connect 0 1 11 0;
 #X connect 1 0 0 0;
