@@ -40,7 +40,7 @@
 #X obj 720 365 * 1;
 #X text 957 443 start loop from beginning;
 #X obj 32 180 loadbang;
-#X text 643 1028 yann seznec // MICA game lab // @yannseznec;
+#X text 526 936 yann seznec // MICA game lab // @yannseznec;
 #N canvas 0 22 450 278 (subpatch) 0;
 #X array sound2 230087 float 2;
 #X coords 0 1 230087 -1 200 140 1 0 0;
@@ -88,6 +88,7 @@
 #X obj 985 616 *~ 4;
 #X floatatom 931 535 5 0 0 0 - - -;
 #X text 27 -17 master loop;
+#X text 677 28 Watch the video: https://youtu.be/G--SNmjymcg;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
 #X connect 4 0 5 0;
